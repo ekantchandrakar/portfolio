@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 23px;
+  color: #EB596E;
+}

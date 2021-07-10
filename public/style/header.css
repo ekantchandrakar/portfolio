@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+*{
+  background-color: #0A1931;
+}
+
+.header-segment {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.avatar {
+  box-sizing: border-box;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: 0px;
+  padding: 0px;
+  width: 400px;
+}
+
+.basic-intro {
+  box-sizing: border-box;
+  margin-top: 90px;
+  padding-top: 0px;
+}
+
+.name {
+  font-size: 40px;
+  font-family: 'Cutive Mono', monospace;
+  color: #78DEC7;
+}
+.name:hover {
+  color: #baece1;
+  cursor: pointer;
+}
+
+.photo{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  width: 400px;
+}
+
+.ekant{
+  width: 300px;
+  clip-path: circle();
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.intro{
+  font-family: 'Cutive Mono', monospace;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.emoji{
+  font-size: 25px;
+  font-family: 'Cutive Mono', monospace;
+  color: #FF94CC;
+}
+.emoji:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.logos{
+  color: white;
+}
+
+/* .linkedin:hover{
+  color: blue;
+}
+.github:hover{
+  color: #C490E4;
+} */
+
+.get-resume-button{
+  margin-top: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-left: 45px;
+  background-color: #0A1931;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size: 15px;
+  width: 110px;
+  height: 30px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.get-resume-button {
+  transition-duration: 0.2s;
+}
+
+.get-resume-button:hover {
+  background-color: white; /* Green */
+  color: #0A1931;
+  cursor: pointer;
+}
+
+.icon{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  z-index: 1000;
+}
+.icon:hover{
+  cursor: pointer;
+  color: #FF94CC;
+}
+
+.leetcode{
+  width: 22px;
+}
